@@ -1,0 +1,153 @@
+
+.head-image {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+
+.mini-image{
+    width: 6rem;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.mini-image-container{
+    flex-wrap: wrap;
+    flex-basis: 25rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.gap-4{
+    gap: 1rem;
+}
+
+.mt-8{
+    margin-top: 2rem;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.p-6{
+    padding: 1.5rem
+}
+
+.center{
+    justify-content: center;
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 10vw;
+   
+    font-weight: bolder;
+    color: #4f99b2;
+    margin-bottom: 0;
+}
+.hero-container h3 {
+    font-size: 6vw;
+    color: #2c313a;
+    margin-top: -5px;
+}
+.about-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 3rem 10% 1rem 10%;
+}
+
+.about-container > div {
+    padding: 1rem;
+}
+.about-right span {
+    color: #4f99b2;
+}
+.about-right {
+    text-align: left;
+    width: auto;
+    line-height: 160%;
+    font-size: 1.1rem;
+    padding: 0;
+}
+.about-right a {
+    color: #4f99b2;
+    text-decoration: none;
+    border-bottom: 2px solid #4f99b2;
+}
+.work-container {
+    padding: 0 10% 1rem 10%;
+}
+.work-container h2,
+.work-container h5,
+.work-container h1,
+.work-container p {
+    text-align: left;
+}
+.work-container h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.work-container h1 {
+    font-size: 32px;
+}
+.work-container span {
+    color: #4f99b2;
+    cursor: pointer;
+}
+.work-container h5 {
+    font-size: 18px;
+    color: #405b73;
+    font-weight: 400;
+    color: #4f99b2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.work-container p {
+    margin-top: 0;
+    font-size: 16px;
+    color: white;
+}
+@media only screen and (max-width: 425px) {
+    .about-container,
+    .work-container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .about-container {
+        flex-direction: column-reverse;
+    }
+    .about-container > div {
+        width: 100%;
+    }
+    .about-left {
+        width: 100%;
+    }
+    .about-right {
+        width: 100%;
+        padding: 0;
+    }
+}
