@@ -6,6 +6,7 @@ import Pic4 from "./assets/images/Pic4.jpeg";
 import Pic5 from "./assets/images/Pic5.jpeg";
 import Pic6 from "./assets/images/Pic6.jpeg";
 
+
 function App() {
 	return (
 		<div>
@@ -25,7 +26,7 @@ function App() {
 				<div className="about-right">
 					Hi!👋🏽 <br />
 					<br />
-					My name is Iwebuke Rachel Onyeamachi, and I'm a Front End developer based in Nigeria.
+					My name is Iwebuke Rachel Onyeamachi, and I am a Front End developer based in Nigeria.
 					<br />
 					<br /> I see myself as a passionate developer who loves coding and bringing design imaginations to life. I focus more on building products
 					using JavaScript, specifically ReactJs .
@@ -58,9 +59,20 @@ function App() {
 							I build a responsive landing page
 						</p>
 						<p>
-							here is my profile{" "}
-							<span onClick={() => window.open("https://www.linkedin.com/in/rachel-iwebuke-1a6a49240")}>linkedIn</span>
+						I Develop high-quality, scalable, and efficient React-based applications,
+						<br /> Collaborate with cross-functional teams to gather requirements and implement UI designs, 
+						<br /> optimize applications for maximum speed and performance,
+						<br /> Participate in code reviews and provide constructive feedback also Knowledge of responsive design principles and 
+						<br /> mobile-first development, Cordova, firebase.
 						</p>
+						<p>
+							here is my profile{" "}
+							<br />
+							<span onClick={() => window.open("https://www.linkedin.com/in/rachel-iwebuke-1a6a49240")}>linkedIn</span> <br />
+							<span onClick={() => window.open("https://github.com/Richiwin")}>github</span> <br />
+							
+						</p>
+
 						
 					</li>
 					
